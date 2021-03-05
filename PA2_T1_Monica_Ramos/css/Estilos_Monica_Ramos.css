@@ -1,0 +1,39 @@
+.body {
+    margin: 0%;
+    padding: 0%;
+}
+
+.h1{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 200%;
+    
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    gap: 1em;
+    padding: 5em;
+}
+
+.container video {
+    width: 100%;
+    height: auto;
+}
+
+.dropdown-item:hover {
+    background:rgb(53, 143, 35);
+}
+
+@media only screen and (max-width: 800px) {
+    .navbar {
+      background-color: rgb(140, 134, 230);
+    }
+    .nester-grid {
+        width: 20%;
+    }
+  }

@@ -1,0 +1,33 @@
+.body {
+    margin: 0%;
+    padding: 0%;
+}
+
+.boton {
+    width: 100%;
+    height: auto;
+}
+.container.element-button {
+    height: 100%;
+}
+
+#mensaje-nuevo {
+    width: 100%;
+    height: auto;
+    background-color: grey;
+}
+
+.container.element-mensaje-nuevo {
+    height: 100%;
+}
+
+#mensajes-historicos {
+    width: 100%;
+    height: auto;
+    background-color: lime;
+}
+
+.container.element-mensajes-historicos {
+    height: 100%;
+}
+
